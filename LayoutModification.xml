@@ -1,0 +1,19 @@
+<LayoutModificationTemplate xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout" Version="1">
+  <RequiredStartGroupsCollection>
+    <RequiredStartGroups>
+      <AppendGroup Name="ASUS">
+        <start:Tile AppUserModelID="5A894077.McAfeeSecurity_wafk5atnkzcwy!App" Column="0" Row="0" Size="2x2" />
+        <start:Tile AppUserModelID="B9ECED6F.ASUSGIFTBOX_qmba6cd70vzyy!App" Column="2" Row="0" Size="2x2" />
+        <start:Tile AppUserModelID="B9ECED6F.ASUSBatteryHealthCharging_qmba6cd70vzyy!App" Column="4" Row="0" Size="2x2" />
+        <start:Tile AppUserModelID="B9ECED6F.ASUSProductRegistrationProgram_qmba6cd70vzyy!com.asus.aprp" Column="0" Row="2" Size="2x2" />
+        <start:Tile AppUserModelID="B9ECED6F.eManual_qmba6cd70vzyy!EManual" Column="2" Row="2" Size="2x2" />
+        <start:Tile AppUserModelID="B9ECED6F.Splendid_qmba6cd70vzyy!App" Column="4" Row="2" Size="2x2" />
+      </AppendGroup>
+      <AppendGroup Name="ASUS">
+        <start:Tile AppUserModelID="RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj!App" Column="0" Row="0" Size="2x2" />
+      </AppendGroup>
+    </RequiredStartGroups>
+  </RequiredStartGroupsCollection>
+  <AppendOfficeSuite />
+  <AppendOfficeSuiteChoice Choice="DesktopBridge" />
+</LayoutModificationTemplate>
