@@ -4,7 +4,7 @@ public class PrimeOrNot {
   public static void main(String[] args) {
       Scanner n = new Scanner(System.in);
       System.out.println("Enter the number :");
-      int num = n.nextInt();
+      int num = n.nextInt(); //Scanning input from the user
       int i = 2;
       boolean flag = false;
       while (i <= num / 2) {
@@ -16,7 +16,7 @@ public class PrimeOrNot {
 
         ++i;
       }
-
+    
       if (!flag)
         System.out.println(num + " is a prime number.");
       else
