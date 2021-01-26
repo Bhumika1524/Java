@@ -1,6 +1,6 @@
 //Fibonacci Series With Recursion
 import java.util.Scanner;
-public class Main {
+public class Fibonacci {
    static int n1 = 0, n2 = 1, n3 = 0;
    //Function Defination
    static void fib(int count) {
