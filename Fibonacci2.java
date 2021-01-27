@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main{
+public class Fibonacci2{
    public static void main(String args[]) {
       int a, b, c, i;
       Scanner s =new Scanner(System.in);
