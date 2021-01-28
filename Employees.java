@@ -1,24 +1,20 @@
-
 import java.io.*;
-
 class Employees{
-    int y;
-    String name, adr;
     InputStreamReader n = new InputStreamReader(System.in);
     BufferedReader br=new BufferedReader(n);
     void input()throws IOException{
     System.out.println("Enter your year of joining");
-    y=Integer.parseInt(br.readLine());
+    int y=Integer.parseInt(br.readLine());
     System.out.println("Enter your Name");
-    name=br.readLine();
+    String name=br.readLine();
     System.out.println("Enter your addresses");
-    adr=br.readLine();
+    String adr=br.readLine();
     }
-    public static void main(String[] args)
-    throws IOException
-    {
+    public static void main(String[] args)throws IOException{
     Employees emp=new Employees();
-    emp.input();
+    int num = 3;
+    for(int i =1; i <= num; i++){
+        emp.input();
+    }
     }
 }
-
